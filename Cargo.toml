@@ -1,0 +1,18 @@
+[package]
+name = "actix-gcd"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# https://actix.rs/
+actix-web = "1.0.8"
+serde = { version = "1.0", features = ["derive"] }
+
+# https://doc.rust-lang.org/book/ch01-03-hello-cargo.html#creating-a-project-with-cargo
+# the project Cargo generated are that Cargo placed the code in the src directory, and we have a Cargo.toml configuration file in the top directory.
+#
+#Cargo expects your source files to live inside the src directory. The top-level project directory is just for README files, license information, configuration files, and anything else not related to your code. Using Cargo helps you organize your projects. There’s a place for everything, and everything is in its place.
+#
+#If you started a project that doesn’t use Cargo, as we did with the “Hello, world!” project, you can convert it to a project that does use Cargo. Move the project code into the src directory and create an appropriate Cargo.toml file.
